@@ -7,7 +7,7 @@ OCB_OPT=-use-ocamlfind -j 4 #-classic-display
 OPAMPATH=$(shell opam config var lib)
 
 # For OPAM-installed coq 8.6.dev
-SERAPI_COQ_HOME=
+SERAPI_COQ_HOME?=
 # SERAPI_COQ_HOME=/home/egallego/external/coq-v8.7/
 
 all: sertop
